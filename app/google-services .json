@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "356170160975",
+    "firebase_url": "https://final-project-e3587.firebaseio.com",
+    "project_id": "final-project-e3587",
+    "storage_bucket": "final-project-e3587.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356170160975:android:f7f12d31a48d8aa248833a",
+        "android_client_info": {
+          "package_name": "com.example.shreeya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356170160975-3t3mf8pcfg7nsvn5v52rg864il95pjvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzlIWwHe_PkRmDmejapQLgvHB971FFU_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356170160975-3t3mf8pcfg7nsvn5v52rg864il95pjvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
