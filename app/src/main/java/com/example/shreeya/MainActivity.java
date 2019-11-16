@@ -1,5 +1,4 @@
 package com.example.shreeya;
-package com.st.messages;
 import java.util.ArrayList;
 import android.app.ProgressDialog;
 import android.database.Cursor;
@@ -28,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-                setContentView(R.layout.contact);
+                setContentView(R.layout.activity_main);
                 listView = (ListView) findViewById(R.id.contactsView);
                 editMessage = (EditText) findViewById(R.id.ed1);
 
@@ -45,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                         contacts con = new contacts(c.getString(c
                                 .getColumnIndex(Contacts.DISPLAY_NAME)), c.getString(c
                                 .getColumnIndex(Phone.NUMBER)));
-                        contacts.add(contacts);
+                        contacts.add(con);
                     }
                 }
                 listView.setAdapter(new Contactsadapter(this, contacts));

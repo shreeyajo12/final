@@ -1,5 +1,4 @@
 package com.example.shreeya;
-package com.st.messages;
 
 public class contacts {
     private String name;
